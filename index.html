@@ -3,32 +3,37 @@
 <head>
   <title>Daniel Bullock</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet", type="text/css", href="index.css" />
+  <link rel="stylesheet", type="text/css", href="styles/index.css" />
   <script src='https://kit.fontawesome.com/7796f0cca1.js'></script>
 </head>
 
 <header>
   <div class="navbar">
-    <img id="logo" src="images/Logo.png" alt="Logo" />
-    <a class="nav-item" href="#">Projects</a>
-    <a class="nav-item" href="#">About</a>
-    <a class="nav-item" href="#">Contact</a>
+    <span class="full-name-logo">
+      <a class="name-logo" href="index.html">Daniel</a>
+      <a class="name-logo2" href="index.html">Bullock</a>
+    </span>
+    <a class="nav-item" href="contact.html">Contact</a>
+    <a class="nav-item" href="about.html">About</a>
   </div>
+
+  <h1 class="page-title">Projects</h1>
 </header>
 
 <body>
+
 <div class="projects">
-  <div class="project-card" id="project-card1">
-    <img id="project1Logo" src="images/ClassroomCompanion.png" alt="Classroom Companion Logo" />
-    <p class="project-title">ClassroomCompanion {expected completion date: April 2020}</p>
+  <div class="project-card">
+    <img class="project-logo" src="images/ClassroomCompanion.png" alt="Classroom Companion Logo" />
+    <p class="project-title">ClassroomCompanion {in development}</p>
     <p class="project-subtitle">
       ClassroomCompanion is my undergraduate design thesis. It is a website built to assist teachers with various mundane teaching tasks.
-      It is a node.js project using MongoDB for the backend. The websites design gave me some time to hone my JavaScript skills especially.
+      It is a node.js project using MongoDB for the backend. The website's design process gave me some time to hone my JavaScript skills especially.
     </p>
   </div>
 
-  <div class="project-card" id="project-card2">
-    <img id="project2Logo" src="images/NoteTakR.png" alt="NoteTakR Logo" />
+  <div class="project-card">
+    <img class="project-logo" src="images/NoteTakR.png" alt="NoteTakR Logo" />
     <p class="project-title">NoteTakR</p>
     <p class="project-subtitle">
       NoteTakR is an android application built with the help of <a href="https://github.com/Mushfequr-Rahman" alt="Mohammad Mushfequr Rahman Github">Mohammad Mushfequr Rahman</a>,
@@ -37,18 +42,18 @@
     </p>
   </div>
 
-  <div class="project-card" id="project-card3">
-    <img id="project3Logo" src="images/SoccerGraphics.png" alt="Graphics Project Logo" />
+  <div class="project-card">
+    <img class="project-logo" src="images/SoccerGraphics.png" alt="Graphics Project Logo" />
     <p class="project-title">Computer Graphics Project - Soccer Toybox</p>
     <p class="project-subtitle">
-      Soccer Toybox is an OpenGL created with <a href="https://github.com/desousak" alt="Kevin Desousa Github">Kevin Desousa</a> for our computer graphics class. This project includes some basic
+      Soccer Toybox is an OpenGL program created with <a href="https://github.com/desousak" alt="Kevin Desousa Github">Kevin Desousa</a> for our computer graphics class. This project includes some basic
       OpenGL code that will do simple lighting of the scene, texturing objs, making/texturing a "skybox", and moving a soccer ball around with translations/rotations. The project can be found
       <a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link">here</a>.
     </p>
   </div>
 
-  <div class="project-card" id="project-card4">
-    <img id="project4Logo" src="images/YT-Companion.png" alt="YT-Companion Logo" />
+  <div class="project-card">
+    <img class="project-logo" src="images/YT-Companion.png" alt="YT-Companion Logo" />
     <p class="project-title">YT-Companion</p>
     <p class="project-subtitle">
       YT-Companion is a JavaFX application that is capable of searching for YouTube videos and playing them, just like YouTube's app. We wanted to make something that could play YouTube videos, look nice,
