@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+#linkedin, #github, #email, #twitter {
+  color: red;
+  font-size: 2rem;
+  text-decoration: none;
+}
