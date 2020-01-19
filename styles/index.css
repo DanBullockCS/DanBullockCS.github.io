@@ -21,17 +21,18 @@
   font-size: 3em;
 }
 .name-logo {
-  font-size: 3rem;
   -webkit-text-fill-color: #35BDB9;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2.5px;
 }
 .name-logo2 {
   margin-left: -0.5rem;
-  font-size: 3rem;
   -webkit-text-fill-color: #E78746;
+}
+.name-logo, .name-logo2 {
+  font-size: 3rem;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2.5px;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .navbar-pill {
   border: 5px solid black;
@@ -102,12 +103,10 @@ a:hover { color: #E78746; }
   border-radius: 1rem;
 }
 
-
 /* Footer */
 footer {
   padding: 1rem;
 }
-
 .social-media-icon {
   text-decoration: none;
   padding-right: 1rem;
@@ -182,8 +181,12 @@ footer {
   }
 }
 @media screen and (max-width: 516px) {
+  .full-name-logo {
+    float: center;
+  }
   .navbar-pill {
     float: left;
+    width: 90vw;
   }
   .name-logo, .name-logo2 {
     font-size: 2rem;
