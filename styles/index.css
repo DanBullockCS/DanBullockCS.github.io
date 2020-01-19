@@ -68,6 +68,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
+  justify-items: center;
 }
 .project-logo {
   width: 250px;
