@@ -18,6 +18,9 @@
   border-radius: 1rem;
   width: 40rem;
 }
+.photo-credit {
+  font-size: 0.75rem;
+}
 
 /* Mobile */
 @media screen and (max-width: 730px) {

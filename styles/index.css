@@ -113,6 +113,9 @@ a:hover { color: #E78746; }
 /* Footer */
 footer {
   padding: 1rem;
+  margin: 2rem;
+  border-bottom: 5px solid black;
+  border-radius: 1rem;
 }
 .social-media-icon {
   text-decoration: none;
@@ -157,7 +160,6 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 400px) {
-  /* Projects */
   .project-logo {
     width: 200px;
   }
@@ -168,8 +170,12 @@ footer {
   .project-subtitle {
     font-size: 0.75rem;
   }
+}
+
+/* Mobile Footer */
+@media screen and (max-width: 447px) {
   .social-media-icon > i {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
