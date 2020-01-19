@@ -3,10 +3,25 @@
   padding: 1rem;
 }
 
+.contact-brackets {
+  border-left: 5px black solid;
+  border-right: 5px black solid;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
 .contact-card {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
+  background-color: #4B8256;
+  padding: 2rem;
+  margin: 1rem;
+  border: 5px black solid;
+  border-radius: 1rem;
+  justify-content: center;
 }
 
 #megaphone {

@@ -2,13 +2,21 @@
 .about-me {
   padding: 1rem;
   max-width: 50%;
+  border-left: 5px black solid;
+  border-right: 5px black solid;
+  border-radius: 1rem;
 }
 .about-me-pic {
-  
+
 }
 .about-me-panel {
   display: inline-grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   justify-items: center;
+  background-color: #4B8256;
+  padding: 2rem;
+  margin: 1rem;
+  border: 5px black solid;
+  border-radius: 1rem;
 }

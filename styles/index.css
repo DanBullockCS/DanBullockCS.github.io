@@ -27,6 +27,7 @@
   -webkit-text-stroke-width: 2.5px;
 }
 .name-logo2 {
+  margin-left: -0.5rem;
   font-size: 3rem;
   -webkit-text-fill-color: #E78746;
   -webkit-text-stroke-color: black;
@@ -60,21 +61,14 @@ header, body {
   font-family: Arial, sans serif;
 }
 
-p {
-  color: #F4F6E9;
-}
+p { color: #F4F6E9; }
+body { background-color: #222; }
 
 a {
-  color: #35BDB9;
+  color: #003C71;
   text-decoration: none;
 }
-a:hover {
-  color: #E78746;
-}
-
-body {
-  background-color: #222;
-}
+a:hover { color: #E78746; }
 
 .projects {
   display: grid;
@@ -94,21 +88,20 @@ body {
 }
 
 /* Making cards centered */
-.project-card:nth-child(odd) {
-  justify-self: end;
-}
-.project-card:nth-child(even) {
-  justify-self: start;
-}
+.project-card:nth-child(odd) { justify-self: end; }
+.project-card:nth-child(even) { justify-self: start; }
 .project-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
-.project-subtitle > a { color: #003C71;}
-.project-subtitle > a:hover {
-  color: #E78746;
-  text-decoration: underline;
+.project-subtitle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 5px black solid;
+  border-right: 5px black solid;
+  border-radius: 1rem;
 }
+
 
 /* Footer */
 footer {
@@ -122,10 +115,26 @@ footer {
 .social-media-icon > i {
   color: #E78746;
   font-size: 4rem;
-  transition: all .1s ease-in-out;
+  transition: all .1s;
 }
 .social-media-icon > i:hover {
   transform: scale(1.1);
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4B8256;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #272131;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E78746;
 }
 
 /* Smaller sizes */
