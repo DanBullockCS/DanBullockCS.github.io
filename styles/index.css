@@ -137,9 +137,56 @@ footer {
   background: #E78746;
 }
 
-/* Smaller sizes */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px) {
-      /* TODO */
+/* Smaller sizes - laptops */
+@media screen and (max-width: 1330px) {
+  .projects {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .project-card {
+    width: auto;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 400px) {
+  /* Projects */
+  .project-logo {
+    width: 200px;
+  }
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .project-subtitle {
+    font-size: 0.75rem;
+  }
+  .social-media-icon > i {
+    font-size: 2.5rem;
+  }
+}
+
+/* Mobile Navbar*/
+@media screen and (max-width: 930px) {
+  .navbar {
+    padding-bottom: 2rem;
+  }
+  .nav-item, .nav-item-selected {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 778px) {
+  .nav-item, .nav-item-selected {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 516px) {
+  .navbar-pill {
+    float: left;
+  }
+  .name-logo, .name-logo2 {
+    font-size: 2rem;
+    -webkit-text-stroke-width: 1.5px;
+  }
 }

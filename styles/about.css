@@ -1,22 +1,36 @@
 /* about page */
 .about-me {
   padding: 1rem;
-  max-width: 50%;
+  width: 35rem;
   border-left: 5px black solid;
   border-right: 5px black solid;
   border-radius: 1rem;
 }
-.about-me-pic {
-
-}
 .about-me-panel {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
   justify-items: center;
   background-color: #4B8256;
   padding: 2rem;
-  margin: 1rem;
+  margin: auto;
   border: 5px black solid;
   border-radius: 1rem;
+  width: 40rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 730px) {
+  .about-me {
+    font-size: 0.75rem;
+    width: auto;
+  }
+  .about-me-panel {
+    width: auto;
+    justify-items: start;
+    padding: 1rem;
+  }
+  .about-me-pic {
+    width: 150px;
+  }
 }

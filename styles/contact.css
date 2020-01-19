@@ -13,18 +13,39 @@
 }
 
 .contact-card {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
+  display: block;
   background-color: #4B8256;
   padding: 2rem;
-  margin: 1rem;
+  margin: auto;
   border: 5px black solid;
   border-radius: 1rem;
-  justify-content: center;
+  width: 35rem;
 }
 
 #megaphone {
   width: 100px;
   justify-self: end;
+}
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+  .contact-card {
+    width: auto;
+  }
+}
+@media screen and (max-width: 470px) {
+  .contact-card {
+    padding: 1rem;
+  }
+  .contact-info {
+    font-size: 0.75rem;
+    width: auto;
+  }
+  #megaphone {
+    width: 50px;
+    justify-self: end;
+  }
+  .contact-brackets {
+    display: block;
+  }
 }
