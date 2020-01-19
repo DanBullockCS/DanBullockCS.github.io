@@ -102,6 +102,13 @@ a:hover { color: #E78746; }
   border-right: 5px black solid;
   border-radius: 1rem;
 }
+.project-tech {
+  float: right;
+  font-weight: bold;
+}
+.project-tech > li {
+  color: #F4F6E9;
+}
 
 /* Footer */
 footer {
