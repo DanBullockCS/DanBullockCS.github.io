@@ -105,6 +105,7 @@ a:hover { color: #E78746; }
 .project-tech {
   float: right;
   font-weight: bold;
+  list-style-type: '> ';
 }
 .project-tech > li {
   color: #F4F6E9;
@@ -160,15 +161,17 @@ footer {
 
 /* Mobile */
 @media screen and (max-width: 400px) {
-  .project-logo {
-    width: 200px;
-  }
   .project-title {
     font-size: 1.25rem;
     font-weight: bold;
   }
   .project-subtitle {
     font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 524px) {
+  .project-logo {
+    width: 200px;
   }
 }
 
