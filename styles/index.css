@@ -43,6 +43,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 3rem;
+  color: #35BDB9;
 }
 .nav-item-selected {
   padding-left: 1rem;
@@ -63,10 +64,10 @@ header, body {
 }
 
 p { color: #F4F6E9; }
-body { background-color: #222; }
+body { background-color: #123; }
 
 a {
-  color: #003C71;
+  color: #FFDB58;
   text-decoration: none;
 }
 a:hover { color: #E78746; }
@@ -78,6 +79,7 @@ a:hover { color: #E78746; }
 }
 .project-logo {
   width: 250px;
+  border-radius: 1rem;
 }
 .project-card {
   background-color: #4B8256;

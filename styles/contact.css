@@ -27,10 +27,34 @@
   justify-self: end;
 }
 
+
+.social-media-icon {
+    padding-left: 0.5rem;
+    padding-right: 0;
+
+}
+#linkedin, #github, #email, #twitter {
+  font-size: 5rem;
+}
+#linkedin {
+  color: #0077B5;
+  float: right;
+}
+#github {
+  color: #333;
+}
+#email {
+  color: #c71610;
+  float: right;
+}
+#twitter {
+ color: #00aced;
+}
+
 /* Mobile */
-@media screen and (max-width: 650px) {
-  .contact-card {
-    width: auto;
+@media screen and (max-width: 420px) {
+  #linkedin, #github, #email, #twitter {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 470px) {
@@ -47,5 +71,13 @@
   }
   .contact-brackets {
     display: block;
+  }
+  #linkedin, #email {
+    float: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .contact-card {
+    width: auto;
   }
 }
