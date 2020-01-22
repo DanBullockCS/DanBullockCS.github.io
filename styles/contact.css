@@ -2,7 +2,10 @@
 .contact-info {
   padding: 1rem;
 }
-
+.contact-subtitle {
+  color: #F4F6E9;
+  padding-left: 1rem;
+}
 .contact-brackets {
   border-left: 5px black solid;
   border-right: 5px black solid;
@@ -27,7 +30,6 @@
   justify-self: end;
 }
 
-
 .social-media-icon {
     padding-left: 0.5rem;
     padding-right: 0;
@@ -38,25 +40,18 @@
 }
 #linkedin {
   color: #0077B5;
-  float: right;
 }
 #github {
   color: #333;
 }
 #email {
   color: #c71610;
-  float: right;
 }
 #twitter {
- color: #00aced;
+  color: #00aced;
 }
 
 /* Mobile */
-@media screen and (max-width: 420px) {
-  #linkedin, #github, #email, #twitter {
-    font-size: 2rem;
-  }
-}
 @media screen and (max-width: 470px) {
   .contact-card {
     padding: 1rem;
@@ -72,8 +67,11 @@
   .contact-brackets {
     display: block;
   }
-  #linkedin, #email {
-    float: none;
+  #linkedin, #github, #email, #twitter {
+    font-size: 2.5rem;
+  }
+  .contact-subtitle {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 650px) {
