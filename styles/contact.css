@@ -5,6 +5,7 @@
 .contact-subtitle {
   color: #F4F6E9;
   padding-left: 1rem;
+  text-align: right;
 }
 .contact-brackets {
   border-left: 5px black solid;
@@ -30,14 +31,22 @@
   justify-self: end;
 }
 
-.social-media-icon {
-    padding-left: 0.5rem;
-    padding-right: 0;
-
+.contact-social {
+  display: inline-block;
+  text-align: left;
+  padding-left: 1rem;
 }
-#linkedin, #github, #email, #twitter {
+.contact-social > i {
+  color: #E78746;
   font-size: 5rem;
+  transition: all .1s;
+  padding-left: 0.5rem;
+  padding-right: 0;
 }
+.contact-social > i:hover {
+  transform: scale(1.1);
+}
+
 #linkedin {
   color: #0077B5;
 }
@@ -72,6 +81,7 @@
   }
   .contact-subtitle {
     font-size: 1rem;
+    text-align: left;
   }
 }
 @media screen and (max-width: 650px) {
