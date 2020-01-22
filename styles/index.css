@@ -34,7 +34,7 @@
   user-select: none;
 }
 .navbar-pill {
-  border: 5px solid black;
+  /* border: 5px solid black; */
   border-radius: 1rem;
   float: right;
 }
@@ -52,9 +52,10 @@
   border-radius: 1rem;
   color: #E78746;
 }
-.nav-item:hover {
+.nav-item:hover, .nav-item-selected:hover {
   background-color: #272131;
   border-radius: 1rem;
+  color: #E78746;
 }
 
 /* Main body */
@@ -69,7 +70,7 @@ a {
   color: #FFDB58;
   text-decoration: none;
 }
-a:hover { color: #E78746; }
+a:hover { color: #35BDB9; }
 
 .projects {
   display: grid;
@@ -81,11 +82,11 @@ a:hover { color: #E78746; }
   border-radius: 1rem;
 }
 .project-card {
-  background-color: #4B8256;
+  background-color: #8B2C32;
   padding: 2rem;
   margin: 1rem;
   width: 35rem;
-  border: 5px black solid;
+  box-shadow: 6px 4px 25px 5px rgba(0,0,0,0.75);
   border-radius: 1rem;
 }
 

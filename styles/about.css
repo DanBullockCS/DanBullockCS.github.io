@@ -11,10 +11,10 @@
   grid-template-columns: auto;
   grid-template-rows: auto;
   justify-items: center;
-  background-color: #4B8256;
   padding: 2rem;
   margin: auto;
-  border: 5px black solid;
+  box-shadow: 6px 4px 25px 5px rgba(0,0,0,0.75);
+  background-color: #8B2C32;
   border-radius: 1rem;
   width: 40rem;
 }

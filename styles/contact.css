@@ -18,10 +18,10 @@
 
 .contact-card {
   display: block;
-  background-color: #4B8256;
+  box-shadow: 6px 4px 25px 5px rgba(0,0,0,0.75);
+  background-color: #8B2C32;
   padding: 2rem;
   margin: auto;
-  border: 5px black solid;
   border-radius: 1rem;
   width: 35rem;
 }
@@ -54,7 +54,7 @@
   color: #333;
 }
 #email {
-  color: #c71610;
+  color: white;
 }
 #twitter {
   color: #00aced;
