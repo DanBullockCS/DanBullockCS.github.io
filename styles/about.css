@@ -21,9 +21,6 @@
 .about-me-pic {
   border-radius: 1rem;
 }
-.photo-credit {
-  font-size: 0.75rem;
-}
 
 /* Mobile */
 @media screen and (max-width: 730px) {
