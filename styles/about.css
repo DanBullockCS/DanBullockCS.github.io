@@ -22,6 +22,15 @@
   border-radius: 1rem;
 }
 
+.interests {
+  color: #F4F6E9;
+  list-style: none;
+  list-style-type: '> ';
+  font-weight: bold;
+  display: inline;
+  font-size: 1rem;
+}
+
 /* Mobile */
 @media screen and (max-width: 730px) {
   .about-me {
@@ -35,5 +44,8 @@
   }
   .about-me-pic {
     width: 150px;
+  }
+  .interests {
+    font-size: 0.75rem;
   }
 }
