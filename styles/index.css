@@ -106,6 +106,10 @@ a:hover { color: #35BDB9; }
 .project-logo {
   width: 250px;
   border-radius: 1rem;
+  transition: all .1s;
+}
+.project-logo:hover {
+  transform: scale(1.1);
 }
 .project-card {
   background-color: #8B2C32;
