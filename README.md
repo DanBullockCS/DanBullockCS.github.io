@@ -1,2 +1,2 @@
 # Personal Website
-Head over to https://DanBullockCS.github.io/ to see my website!
+Head over to http://DanBullock.me to see my website!
