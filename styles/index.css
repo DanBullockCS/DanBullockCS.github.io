@@ -204,7 +204,7 @@ footer {
 @media screen and (max-width: 613px) {
   .nav-li {
     display: block;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
   }
 }
 @media screen and (max-width: 516px) {
