@@ -8,8 +8,8 @@
   text-align: right;
 }
 .contact-brackets {
-  border-left: 5px black solid;
-  border-right: 5px black solid;
+  border-left: 5px white solid;
+  border-right: 5px white solid;
   border-radius: 1rem;
   display: grid;
   grid-template-columns: auto auto;
@@ -18,8 +18,7 @@
 
 .contact-card {
   display: block;
-  box-shadow: 6px 4px 25px 5px rgba(0,0,0,0.75);
-  background-color: #8B2C32;
+  background-color: #000000;
   padding: 2rem;
   margin: auto;
   border-radius: 1rem;

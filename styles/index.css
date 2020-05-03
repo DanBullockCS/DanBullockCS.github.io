@@ -1,6 +1,6 @@
 /* Header */
 .page-title {
-  color: #E78746;
+  color: white;
   text-align: center;
   font-size: 3rem;
   margin: auto;
@@ -11,29 +11,31 @@
 /* Navbar */
 .navbar {
   padding-bottom: 1rem;
-  border-bottom: black 5px ridge;
+  border-bottom: white 5px ridge;
   border-radius: 1rem;
 }
 .full-name-logo::before {
   content: "{";
   font-size: 3rem;
+  color: white;
 }
 .full-name-logo::after {
   content: "}";
   font-size: 3rem;
+  color: white;
 }
 .name-logo {
   color: #35BDB9;
 }
 .name-logo2 {
   margin-left: -0.5rem;
-  color: #E78746;
+  color: #FFDB58;
 }
 .name-logo:hover {
   color: #35BDB9;
 }
 .name-logo2:hover {
-  color: #E78746;
+  color: #FFDB58;
 }
 .name-logo, .name-logo2 {
   font-size: 3rem;
@@ -49,7 +51,7 @@
   padding-right: 1rem;
 }
 .social-media-icon > i {
-  color: #E78746;
+  color: white;
   font-size: 2.5rem;
   transition: all .1s;
 }
@@ -74,23 +76,23 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 2rem;
-  background-color: #272131;
+  background-color: #000000;
   border-radius: 1rem;
-  color: #E78746;
+  color: #FFDB58;
 }
 .nav-item:hover, .nav-item-selected:hover {
-  background-color: #272131;
+  background-color: #000000;
   border-radius: 1rem;
-  color: #E78746;
+  color: #FFDB58;
 }
 
 /* Main body */
 header, body {
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 p { color: #F4F6E9; }
-body { background-color: #123; }
+body { background-color: #121212; }
 
 a {
   color: #FFDB58;
@@ -112,11 +114,10 @@ a:hover { color: #35BDB9; }
   transform: scale(1.1);
 }
 .project-card {
-  background-color: #8B2C32;
+  background-color: #000000;
   padding: 2rem;
   margin: 1rem;
   width: 35rem;
-  box-shadow: 6px 4px 25px 5px rgba(0,0,0,0.75);
   border-radius: 1rem;
 }
 
@@ -130,8 +131,8 @@ a:hover { color: #35BDB9; }
 .project-subtitle {
   padding-left: 1rem;
   padding-right: 1rem;
-  border-left: 5px black solid;
-  border-right: 5px black solid;
+  border-left: 5px white solid;
+  border-right: 5px white solid;
   border-radius: 1rem;
 }
 .project-tech {
@@ -171,24 +172,24 @@ a:hover { color: #35BDB9; }
 footer {
   padding: 1rem;
   margin: 2rem;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid white;
   border-radius: 1rem;
 }
 /* Scroll bar */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #4B8256;
+  box-shadow: inset 0 0 5px white;
   border-radius: 1rem;
 }
 ::-webkit-scrollbar-thumb {
-  background: #272131;
+  background: white;
   border-radius: 1rem;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #E78746;
+  background: #35BDB9;
 }
 
 /* Mobile Navbar*/

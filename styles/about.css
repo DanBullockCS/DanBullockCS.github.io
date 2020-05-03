@@ -2,8 +2,8 @@
 .about-me {
   padding: 1rem;
   width: 35rem;
-  border-left: 5px black solid;
-  border-right: 5px black solid;
+  border-left: 5px white solid;
+  border-right: 5px white solid;
   border-radius: 1rem;
 }
 .about-me-panel {
@@ -13,13 +13,27 @@
   justify-items: center;
   padding: 2rem;
   margin: auto;
-  box-shadow: 6px 4px 25px 5px rgba(0,0,0,0.75);
-  background-color: #8B2C32;
+  background-color: #000000;
   border-radius: 1rem;
   width: 40rem;
 }
 .about-me-pic {
   border-radius: 1rem;
+  user-select: none;
+}
+
+/* Container for image of myself */
+.img-container {
+  position: relative;
+}
+.img-container:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .interests {
