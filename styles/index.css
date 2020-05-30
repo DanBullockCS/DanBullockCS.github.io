@@ -93,6 +93,7 @@ header, body {
 
 p { color: #F4F6E9; }
 body { background-color: #121212; }
+img { user-select: none; }
 
 a {
   color: #FFDB58;

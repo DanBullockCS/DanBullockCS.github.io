@@ -36,6 +36,8 @@
   z-index: 99;
 }
 
+img { user-select: none; }
+
 .interests {
   color: #F4F6E9;
   list-style: none;
