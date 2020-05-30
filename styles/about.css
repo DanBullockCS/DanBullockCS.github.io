@@ -4,7 +4,7 @@
   width: 35rem;
   border-left: 5px white solid;
   border-right: 5px white solid;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 .about-me-panel {
   display: grid;
@@ -14,7 +14,7 @@
   padding: 2rem;
   margin: auto;
   background-color: #000000;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   width: 40rem;
 }
 .about-me-pic {

@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Dan Bullock's Website (Home/Project Page)">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet", type="text/css", href="styles/index.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet", type="text/css", href="styles/index.css" />
+  <script src="scripts/cardflip.js"></script>
   <script src='https://kit.fontawesome.com/7796f0cca1.js'></script>
 </head>
 
@@ -20,7 +21,6 @@
       <ul class="navbar-pill">
         <li class="nav-li"><a class="nav-item-selected" href="/">Projects</a></li>
         <li class="nav-li"><a class="nav-item" href="about">About</a></li>
-        <li class="nav-li"><a class="nav-item" href="contact">Contact</a></li>
       </ul>
     </div>
     <div class="social-media-pill">
@@ -44,97 +44,189 @@
 <div class="page-body">
 	<h1 class="page-title">Projects</h1>
 	<div class="projects">
-		<div class="project-card">
-			<a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank"><img class="project-logo" src="images/ClassroomCompanion.png" alt="Classroom Companion Logo" /></a>
+		<div class="project-card" id="CC_Card">
+			<div class="project-card-front">
+				<a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank"><img class="project-logo" src="images/ClassroomCompanion.png" alt="Classroom Companion Logo" /></a>
+				<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('CC_Card')">
+					<i class="fas fa-redo"></i>
+				</button>
+				<ul class="project-tech">
+				<li>HTML/CSS/JS</li>
+				<li>MongoDB</li>
+				<li>Pug (Jade.js)</li>
+				<li>Bootstrap</li>
+				</ul>
+				<p class="project-title">ClassroomCompanion</p>
+				<p class="project-subtitle">
+				ClassroomCompanion is my undergraduate design thesis. It is a website built to assist teachers with various mundane teaching tasks.
+				It is a node.js project using MongoDB for the backend. The website's design process gave me some time to hone my JavaScript skills especially.
+				The project features an Attendance, Grade, and Performance Tracker for students; the code is posted
+				<a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank">here</a>.
+				</p>
+			</div>
+			
+			<div class="project-card-back">
+				<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('CC_Card')">
+					<i class="fas fa-redo"></i>
+				</button>
+				<div class="project-gif">
+					<img src="images/gifs/ClassroomCompanion.gif" alt="Classroom Companion Gif"></img>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="project-card" id="League_Card">
+			<div class="project-card-front">
+				<a href="https://github.com/DanBullockCS/LeagueKillViewer" alt="LeagueKillViewer link" target="_blank"><img class="project-logo" src="images/LeagueKillViewer.png" alt="League Kill Viewer Picture" /></a>
+				<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('League_Card')">
+					<i class="fas fa-redo"></i>
+				</button>
+				<ul class="project-tech">
+				<li>HTML/CSS/JS</li>
+				<li>D3</li>
+				</ul>
+				<p class="project-title">League Kill Viewer</p>
+				<p class="project-subtitle">
+				The League Kill Viewer is a D3 dashboard I made with <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a> and 
+				<a href="https://github.com/DanooshanS" alt="Danooshan Sureshkumar Github" target="_blank">Danooshan Sureshkumar</a>. It takes League of Legends professional game data
+				from 2015 to 2018 and displays it using various visualizations. This was done for the Information Visualization course at Ontario Tech. The project can be found
+				<a href="https://github.com/DanBullockCS/LeagueKillViewer" alt="LeagueKillViewer link" target="_blank">here</a>.
+				</p>
+			</div>
+
+			<div class="project-card-back">
+				<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('League_Card')">
+					<i class="fas fa-redo"></i>
+				</button>
+				<div class="project-gif">
+					<img src="images/gifs/LeagueKillViewer.gif" alt="LeagueKillViewer Gif"></img>
+				</div>
+			</div>
+		</div>		
+
+
+	  <div class="project-card" id="Unity_Card">
+		<div class="project-card-front">
+			<a href="https://github.com/DanBullockCS/unityprojects" alt="UnityProjects link" target="_blank"><img class="project-logo" src="images/Unity.png" alt="Unity Logo" /></a>
+			<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('Unity_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
 			<ul class="project-tech">
-			  <li>HTML/CSS/JS</li>
-			  <li>MongoDB</li>
-			  <li>Pug (Jade.js)</li>
-			  <li>Bootstrap</li>
+			<li>Unity</li>
+			<li>C#</li>
 			</ul>
-			<p class="project-title">ClassroomCompanion</p>
+			<p class="project-title">Unity Projects: Gunman Gavin / Casinodano</p>
 			<p class="project-subtitle">
-			  ClassroomCompanion is my undergraduate design thesis. It is a website built to assist teachers with various mundane teaching tasks.
-			  It is a node.js project using MongoDB for the backend. The website's design process gave me some time to hone my JavaScript skills especially.
-			  The project features an Attendance, Grade, and Performance Tracker for students; the code is posted
-			  <a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank">here</a>.
+			A couple Unity games that I have finished during my interactive media class are posted at this repository
+			<a href="https://github.com/DanBullockCS/unityprojects" alt="UnityProjects link" target="_blank">here</a>.
+			The first one is 2D shooter called <i>Gunman Gavin</i>, it resembles old MegaMan games, but in a western theme. The other project is <i>Casinodano</i>, which is a
+			3D game that brings a casino experience to life. It was my first 3D Unity game and I enjoy the atmosphere I created.
 			</p>
 		</div>
 
-		<div class="project-card">
-			<a href="https://github.com/DanBullockCS/LeagueKillViewer" alt="LeagueKillViewer link" target="_blank"><img class="project-logo" src="images/LeagueKillViewer.png" alt="League Kill Viewer Picture" /></a>
+		<div class="project-card-back">
+			<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('Unity_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
+			<div class="project-gif">
+				<img src="images/gifs/Gunman Gavin.gif" alt="Gunman Gavin Gif"></img>
+			</div>
+			<div class="project-gif">
+				<img src="images/gifs/Casinodano.gif" alt="Casinodano Gif"></img>
+			</div>
+		</div>
+	  </div>
+
+
+	  <div class="project-card" id="NoteTakR_Card">
+		<div class="project-card-front">
+			<a href="https://github.com/DanBullockCS/CSCI4100U-Project" alt="NoteTakR link" target="_blank"><img class="project-logo" src="images/NoteTakR.png" alt="NoteTakR Logo" /></a>
+			<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('NoteTakR_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
 			<ul class="project-tech">
-			  <li>HTML/CSS/JS</li>
-			  <li>D3</li>
+			<li>Flutter</li>
+			<li>Dart</li>
 			</ul>
-			<p class="project-title">League Kill Viewer</p>
+			<p class="project-title">NoteTakR</p>
 			<p class="project-subtitle">
-			  The League Kill Viewer is a D3 dashboard I made with <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a> and 
-			  <a href="https://github.com/DanooshanS" alt="Danooshan Sureshkumar Github" target="_blank">Danooshan Sureshkumar</a>. It takes League of Legends professional game data
-			  from 2015 to 2018 and displays it using various visualizations. This was done for the Information Visualization course at Ontario Tech. The project can be found
-			  <a href="https://github.com/DanBullockCS/LeagueKillViewer" alt="LeagueKillViewer link" target="_blank">here</a>.
+			NoteTakR is an android application built with the help of <a href="https://github.com/Mushfequr-Rahman" alt="Mohammad Mushfequr Rahman Github" target="_blank">Mohammad Mushfequr Rahman</a>,
+			<a href="https://github.com/zbonal" alt="Leonard Zbona Github" target="_blank">Leonard Zbona</a>, and
+			<a href="https://github.com/NanDitto" alt="Nandor Gallo Github" target="_blank">Nandor Gallo</a> using the Google Flutter SDK.
+			NoteTakR is note taking app specifically geared towards students. The project's code is posted
+			<a href="https://github.com/DanBullockCS/CSCI4100U-Project" alt="NoteTakR link" target="_blank">here</a>.
 			</p>
-		</div>		
+		</div>
 
-	  <div class="project-card">
-		<a href="https://github.com/DanBullockCS/unityprojects" alt="UnityProjects link" target="_blank"><img class="project-logo" src="images/Unity.png" alt="Unity Logo" /></a>
-		<ul class="project-tech">
-		  <li>Unity</li>
-		  <li>C#</li>
-		</ul>
-		<p class="project-title">Unity Projects: Gunman Gavin / Casinodano</p>
-		<p class="project-subtitle">
-		  A couple Unity games that I have finished during my interactive media class are posted at this repository
-		  <a href="https://github.com/DanBullockCS/unityprojects" alt="UnityProjects link" target="_blank">here</a>.
-		  The first one is 2D shooter called <i>Gunman Gavin</i>, it resembles old MegaMan games, but in a western theme. The other project is <i>Casinodano</i>, which is a
-		  3D game that brings a casino experience to life. It was my first 3D Unity game and I enjoy the atmosphere I created.
-		</p>
+		<div class="project-card-back">
+			<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('NoteTakR_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
+			<div class="project-gif">
+				<img src="images/gifs/NoteTakR.gif" alt="NoteTakR Gif" id="NoteTakRGif"></img>
+			</div>
+		</div>
 	  </div>
 
-	  <div class="project-card">
-		<a href="https://github.com/DanBullockCS/CSCI4100U-Project" alt="NoteTakR link" target="_blank"><img class="project-logo" src="images/NoteTakR.png" alt="NoteTakR Logo" /></a>
-		<ul class="project-tech">
-		  <li>Flutter</li>
-		  <li>Dart</li>
-		</ul>
-		<p class="project-title">NoteTakR</p>
-		<p class="project-subtitle">
-		  NoteTakR is an android application built with the help of <a href="https://github.com/Mushfequr-Rahman" alt="Mohammad Mushfequr Rahman Github" target="_blank">Mohammad Mushfequr Rahman</a>,
-		  <a href="https://github.com/zbonal" alt="Leonard Zbona Github" target="_blank">Leonard Zbona</a>, and
-		  <a href="https://github.com/NanDitto" alt="Nandor Gallo Github" target="_blank">Nandor Gallo</a> using the Google Flutter SDK.
-		  NoteTakR is note taking app specifically geared towards students. The project's code is posted
-		  <a href="https://github.com/DanBullockCS/CSCI4100U-Project" alt="NoteTakR link" target="_blank">here</a>.
-		</p>
+
+	  <div class="project-card" id="Soccer_Card">
+		<div class="project-card-front">
+			<a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link" target="_blank"><img class="project-logo" src="images/SoccerGraphics.png" alt="Graphics Project Logo" /></a>
+			<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('Soccer_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
+			<ul class="project-tech">
+			<li>OpenGL</li>
+			<li>C++</li>
+			</ul>
+			<p class="project-title">Computer Graphics Project - Soccer Toybox</p>
+			<p class="project-subtitle">
+			Soccer Toybox is an OpenGL program created with <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a> for our computer graphics class. This project includes some basic
+			OpenGL code that will do simple lighting of the scene, texturing objs, making/texturing a "skybox", and moving a soccer ball around with translations/rotations. You can find the project's code
+			<a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link" target="_blank">here</a>.
+			</p>
+		</div>
+
+		<div class="project-card-back">
+			<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('Soccer_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
+			<div class="project-gif">
+				<img src="images/gifs/SoccerToybox.gif" alt="SoccerToybox Gif"></img>
+			</div>
+		</div>
 	  </div>
 
-	  <div class="project-card">
-		<a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link" target="_blank"><img class="project-logo" src="images/SoccerGraphics.png" alt="Graphics Project Logo" /></a>
-		<ul class="project-tech">
-		  <li>OpenGL</li>
-		  <li>C++</li>
-		</ul>
-		<p class="project-title">Computer Graphics Project - Soccer Toybox</p>
-		<p class="project-subtitle">
-		  Soccer Toybox is an OpenGL program created with <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a> for our computer graphics class. This project includes some basic
-		  OpenGL code that will do simple lighting of the scene, texturing objs, making/texturing a "skybox", and moving a soccer ball around with translations/rotations. You can find the project's code
-		  <a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link" target="_blank">here</a>.
-		</p>
-	  </div>
 
-	  <div class="project-card">
-		<a href="https://github.com/DanBullockCS/YT-Companion" alt="YT-Companion link" target="_blank"><img class="project-logo" src="images/YT-Companion.png" alt="YT-Companion Logo" /></a>
-		<ul class="project-tech">
-		  <li>JavaFX</li>
-		  <li>CSS</li>
-		</ul>
-		<p class="project-title">YT-Companion</p>
-		<p class="project-subtitle">
-		  YT-Companion is a JavaFX application that is capable of searching for YouTube videos and playing them - just like YouTube's app. We wanted to make something that could play YouTube videos, look nice,
-		  and meet our project requirements. This was a group project with <a href="https://github.com/SPilkey" alt="Samuel Pilkey Github" target="_blank">Samuel Pilkey</a>,
-		  <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a>,
-		  and <a href="https://github.com/zbonal" alt="Leonard Zbona Github" target="_blank">Leonard Zbona</a>. The project's code can be found
-		  <a href="https://github.com/DanBullockCS/YT-Companion" alt="YT-Companion link" target="_blank">here</a>.
-		</p>
+	  <div class="project-card" id="YT_Card">
+		<div class="project-card-front">
+			<a href="https://github.com/DanBullockCS/YT-Companion" alt="YT-Companion link" target="_blank"><img class="project-logo" src="images/YT-Companion.png" alt="YT-Companion Logo" /></a>
+			<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('YT_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
+			<ul class="project-tech">
+			<li>JavaFX</li>
+			<li>CSS</li>
+			</ul>
+			<p class="project-title">YT-Companion</p>
+			<p class="project-subtitle">
+			YT-Companion is a JavaFX application that is capable of searching for YouTube videos and playing them - just like YouTube's app. We wanted to make something that could play YouTube videos, look nice,
+			and meet our project requirements. This was a group project with <a href="https://github.com/SPilkey" alt="Samuel Pilkey Github" target="_blank">Samuel Pilkey</a>,
+			<a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a>,
+			and <a href="https://github.com/zbonal" alt="Leonard Zbona Github" target="_blank">Leonard Zbona</a>. The project's code can be found
+			<a href="https://github.com/DanBullockCS/YT-Companion" alt="YT-Companion link" target="_blank">here</a>.
+			</p>
+		</div>
+		
+		<div class="project-card-back">
+			<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('YT_Card')">
+				<i class="fas fa-redo"></i>
+			</button>
+			<div class="project-gif">
+				<img src="images/gifs/YT-Companion.gif" alt="YT-Companion Gif"></img>
+			</div>
+		</div>
 	  </div>
 	</div>
 </div>

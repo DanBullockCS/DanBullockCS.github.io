@@ -12,7 +12,7 @@
 .navbar {
   padding-bottom: 1rem;
   border-bottom: white 5px ridge;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 .full-name-logo::before {
   content: "{";
@@ -118,7 +118,7 @@ a:hover { color: #35BDB9; }
   padding: 2rem;
   margin: 1rem;
   width: 35rem;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 /* Making cards centered */
@@ -133,13 +133,37 @@ a:hover { color: #35BDB9; }
   padding-right: 1rem;
   border-left: 5px white solid;
   border-right: 5px white solid;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 .project-tech {
   float: right;
   font-weight: bold;
   list-style-type: '> ';
   color: #F4F6E9;
+}
+
+.project-gif > img {
+  width: 100%;
+}
+.flip-button {
+  float: right;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.flip-button-back {
+  float: right;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project-card-back {
+  transform: rotateY(180deg);
+  display: none;
+}
+
+#NoteTakRGif {
+  max-height: 700px;
+  max-width: 398px;
 }
 
 /* Mobile Project Items*/
@@ -173,7 +197,7 @@ footer {
   padding: 1rem;
   margin: 2rem;
   border-bottom: 5px solid white;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 /* Scroll bar */
 ::-webkit-scrollbar {
