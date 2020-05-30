@@ -145,14 +145,15 @@ a:hover { color: #35BDB9; }
 .project-gif > img {
   width: 100%;
 }
-.flip-button {
+.flip-button, .flip-button-back {
   float: right;
   font-size: 2rem;
+}
+.flip-button {
   margin-left: 1rem;
 }
 .flip-button-back {
-  float: right;
-  font-size: 2rem;
+  transform: rotateY(180deg);
   margin-bottom: 1rem;
 }
 
