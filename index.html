@@ -44,6 +44,35 @@
 <div class="page-body">
 	<h1 class="page-title">Projects</h1>
 	<div class="projects">
+		<div class="project-card" id="KeepUpCard">
+			<div class="project-card-front">
+				<a href="https://github.com/DanBullockCS/KeepUp" alt="Thesis link" target="_blank"><img class="project-logo" src="images/KeepUp!.png" alt="KeepUp! Logo" /></a>
+				<button class="flip-button" alt="flip the card over to see project gif" onclick="flipCard('KeepUpCard')">
+					<i class="fas fa-redo"></i>
+				</button>
+				<ul class="project-tech">
+				<li>Unity</li>
+				<li>C#</li>
+				<li>Android</li>
+				</ul>
+				<p class="project-title">KeepUp!</p>
+				<p class="project-subtitle">
+				KeepUp! is a simple Android game made in Unity. In it, you keep a paper ball up as long as you can by bouncing it up with an eraser. It was the first android game I made
+				in Unity so it was a good learning experience leading to greater projects. The project is free and located
+				<a href="https://github.com/DanBullockCS/KeepUp" alt="KeepUp! link" target="_blank">here</a>.
+				</p>
+			</div>
+			
+			<div class="project-card-back">
+				<button class="flip-button-back" alt="flip the card over to see project gif" onclick="flipCardBack('KeepUpCard')">
+					<i class="fas fa-redo"></i>
+				</button>
+				<div class="project-gif">
+					<img src="images/gifs/KeepUp!.gif" alt="KeepUp! Gif"></img>
+				</div>
+			</div>
+		</div>
+
 		<div class="project-card" id="CC_Card">
 			<div class="project-card-front">
 				<a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank"><img class="project-logo" src="images/ClassroomCompanion.png" alt="Classroom Companion Logo" /></a>
@@ -130,10 +159,8 @@
 				<i class="fas fa-redo"></i>
 			</button>
 			<div class="project-gif">
-				<img src="images/gifs/Gunman Gavin.gif" alt="Gunman Gavin Gif"></img>
-			</div>
-			<div class="project-gif">
-				<img src="images/gifs/Casinodano.gif" alt="Casinodano Gif"></img>
+				<img src="images/gifs/Gunman Gavin.gif" alt="Gunman Gavin Gif" id="GunmanGavinGif"></img>
+				<img src="images/gifs/Casinodano.gif" alt="Casinodano Gif" id="CasinodanoGif"></img>
 			</div>
 		</div>
 	  </div>

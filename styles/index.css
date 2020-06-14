@@ -163,7 +163,12 @@ a:hover { color: #35BDB9; }
   display: none;
 }
 
+/* Restricting dimensions specific gifs */
 #NoteTakRGif {
+  max-height: 500px;
+  max-width: 281px;
+}
+#GunmanGavinGif, #CasinodanoGif {
   max-height: 700px;
   max-width: 398px;
 }
