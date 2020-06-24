@@ -197,6 +197,9 @@ a:hover { color: #35BDB9; }
   .project-logo {
     width: 200px;
   }
+  .page-title {
+    font-size: 2rem;
+  }
 }
 
 /* Footer */

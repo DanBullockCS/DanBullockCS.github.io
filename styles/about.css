@@ -59,13 +59,16 @@ img { user-select: none; }
   }
   .about-me-panel {
     width: auto;
-    justify-items: start;
     padding: 1rem;
   }
   .about-me-pic {
     width: 125px;
+
   }
   .interests {
     font-size: 0.75rem;
+  }
+  .page-title {
+    font-size: 2rem;
   }
 }
