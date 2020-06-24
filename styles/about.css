@@ -22,6 +22,10 @@
   user-select: none;
 }
 
+#MePic2 {
+  max-width: 200px;
+}
+
 /* Container for image of myself */
 .img-container {
   position: relative;
@@ -57,7 +61,7 @@
     padding: 1rem;
   }
   .about-me-pic {
-    width: 150px;
+    width: 125px;
   }
   .interests {
     font-size: 0.75rem;
