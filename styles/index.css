@@ -93,6 +93,7 @@ header, body {
 
 p { color: #F4F6E9; }
 body { background-color: #121212; }
+img { user-select: none; }
 
 a {
   color: #FFDB58;
@@ -162,7 +163,12 @@ a:hover { color: #35BDB9; }
   display: none;
 }
 
+/* Restricting dimensions specific gifs */
 #NoteTakRGif {
+  max-height: 500px;
+  max-width: 281px;
+}
+#GunmanGavinGif, #CasinodanoGif {
   max-height: 700px;
   max-width: 398px;
 }
