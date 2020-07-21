@@ -51,6 +51,12 @@ img { user-select: none; }
   font-size: 1rem;
 }
 
+h2 {
+  color: #F4F6E9;
+  padding: 0;
+  margin: 0;
+}
+
 /* Mobile */
 @media screen and (max-width: 730px) {
   .about-me {
