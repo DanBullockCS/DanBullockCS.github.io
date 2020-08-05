@@ -143,7 +143,7 @@ a:hover { color: #35BDB9; }
   color: #F4F6E9;
 }
 
-.project-gif > img {
+.project-video > img {
   width: 100%;
 }
 .flip-button, .flip-button-back {
@@ -163,12 +163,12 @@ a:hover { color: #35BDB9; }
   display: none;
 }
 
-/* Restricting dimensions specific gifs */
-#NoteTakRGif {
+/* Restricting dimensions specific videos */
+#NoteTakRvideo {
   max-height: 500px;
   max-width: 281px;
 }
-#GunmanGavinGif, #CasinodanoGif {
+#GunmanGavinvideo, #Casinodanovideo {
   max-height: 700px;
   max-width: 398px;
 }
