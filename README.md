@@ -1,2 +1,2 @@
 # Personal Website
-Head over to http://DanBullock.me to see my website!
+Head over to https://danbullock.me/ to see my website!
