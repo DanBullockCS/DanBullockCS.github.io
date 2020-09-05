@@ -51,6 +51,13 @@ img { user-select: none; }
   font-size: 1rem;
 }
 
+.interests > li {
+  padding: 10px;
+  background-color: #222222;
+  border: 1px solid #35BDB9;
+  
+}
+
 h2 {
   color: #F4F6E9;
   padding: 0;
