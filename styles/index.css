@@ -165,13 +165,6 @@ a:hover { color: #35BDB9; }
 /* Live Projects Logo SVG */
 .logo-svg {
   border: none;
-  user-select: none;
-  pointer-events: none;
-}
-.svg-container {
-  border: 1px solid #35BDB9;
-  border-radius: 1rem;
-  width: 252px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .logo-svg {
@@ -223,9 +216,6 @@ a:hover { color: #35BDB9; }
   }
   .page-title {
     font-size: 2rem;
-  }
-  .svg-container {
-    width: 202px;
   }
 }
 
