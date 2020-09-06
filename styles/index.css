@@ -12,7 +12,6 @@
 .navbar {
   padding-bottom: 1rem;
   border-bottom: white 5px ridge;
-  /* border-radius: 1rem; */
 }
 .full-name-logo::before {
   content: "{";
@@ -110,6 +109,7 @@ a:hover { color: #35BDB9; }
   width: 250px;
   border-radius: 1rem;
   transition: all .1s;
+  border: #35BDB9 solid 1px;
 }
 .project-logo:hover {
   transform: scale(1.1);
@@ -132,9 +132,8 @@ a:hover { color: #35BDB9; }
 .project-subtitle {
   padding-left: 1rem;
   padding-right: 1rem;
-  border-left: 5px white solid;
-  border-right: 5px white solid;
-  /* border-radius: 1rem; */
+  border-left: 5px #35BDB9 solid;
+  border-right: 5px #35BDB9 solid;
 }
 .project-tech {
   float: right;
@@ -161,6 +160,31 @@ a:hover { color: #35BDB9; }
 .project-card-back {
   transform: rotateY(180deg);
   display: none;
+}
+
+/* Live Projects Logo SVG */
+.logo-svg {
+  border: none;
+  user-select: none;
+  pointer-events: none;
+}
+.svg-container {
+  border: 1px solid #35BDB9;
+  border-radius: 1rem;
+  width: 252px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .logo-svg {
+    animation: logo-svg-spin infinite 2s linear;
+  }
+}
+@keyframes logo-svg-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Restricting dimensions specific videos */
@@ -199,6 +223,9 @@ a:hover { color: #35BDB9; }
   }
   .page-title {
     font-size: 2rem;
+  }
+  .svg-container {
+    width: 202px;
   }
 }
 

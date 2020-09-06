@@ -2,8 +2,8 @@
 .about-me {
   padding: 1rem;
   width: 35rem;
-  border-left: 5px white solid;
-  border-right: 5px white solid;
+  border-left: 5px #35BDB9 solid;
+  border-right: 5px #35BDB9 solid;
   /* border-radius: 1rem; */
 }
 .about-me-panel {
@@ -55,7 +55,7 @@ img { user-select: none; }
   padding: 10px;
   background-color: #222222;
   border: 1px solid #35BDB9;
-  
+  margin: -1px;
 }
 
 h2 {
