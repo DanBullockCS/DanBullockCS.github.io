@@ -40,18 +40,27 @@
         <i class="fas fa-user-graduate"></i>
       </a>
     </div>
-
   </nav>
 
+  <!-- Header SVG  -->
+	<h1 class="page-title">About</h1>
+	<svg viewBox="0 0 1000 100" preserveAspectRatio="none" class="header-svg">
+		<defs>
+			<linearGradient id="header-gradient" x2="0%" y2="100%">
+				<stop offset="0%" stop-color="#000000" />
+				<stop offset="100%" stop-color="#35BDB9" />
+			</linearGradient>
+		</defs>
+		<path class="header-path" fill="url(#header-gradient)"
+			d="M-4,-4 L1004,-4 L1004,90 L804,90 L604,90 L404,90 L204,90 L-4,90 L-4,90 L-4,-4 Z" />
+	</svg>
 </header>
 
 <body>
   <div class="page-body">
-    <h1 class="page-title">About</h1>
     <div class="about-me-panel">
       <div class="img-container">
         <img class="about-me-pic" src="images/Dan.jpg" alt="Picture of Daniel" />
-        <img class="about-me-pic" id="MePic2" src="images/Me.jpg" alt="Picture of Daniel, but cooler" />
       </div>
 
       <p class="about-me">I graduated from Computer Science at <a

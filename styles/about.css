@@ -14,16 +14,12 @@
   padding: 2rem;
   margin: auto;
   background-color: #000000;
-  /* border-radius: 1rem; */
+  border: #35BDB9 solid 1px;
   width: 40rem;
 }
 .about-me-pic {
   border-radius: 1rem;
   user-select: none;
-}
-
-#MePic2 {
-  max-width: 200px;
 }
 
 /* Container for image of myself */

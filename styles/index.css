@@ -4,14 +4,25 @@
   text-align: center;
   font-size: 3rem;
   margin: auto;
-  width: 50%;
+  width: 100%;
   padding: 1rem 0 1rem 0;
+  position: absolute;
+}
+
+/* Header SVG */
+.header-svg {
+  width: 100%;
+  height: 100px;
+}
+.header-path {
+  stroke: white;
+  stroke-width: 4;
 }
 
 /* Navbar */
 .navbar {
   padding-bottom: 1rem;
-  border-bottom: white 5px ridge;
+  border-bottom: white 5px solid;
 }
 .full-name-logo::before {
   content: "{";
@@ -217,6 +228,10 @@ a:hover { color: #35BDB9; }
   }
   .page-title {
     font-size: 2rem;
+    padding: 0;
+  }
+  .header-svg {
+    height: 50px;
   }
 }
 
