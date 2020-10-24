@@ -364,13 +364,13 @@ footer {
 	bottom: 30px;
 	right: 30px;
 	z-index: 99;
-	font-size: 18px;
+	font-size: 2rem;
 	border: none;
 	outline: none;
 	background-color: #35BDB9;
 	color: white;
 	cursor: pointer;
-	padding: 10px 15px 10px 15px;
+	padding: 5px 15px 5px 15px;
 	border-radius: 4px;
   }
   
