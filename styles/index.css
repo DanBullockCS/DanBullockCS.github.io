@@ -9,6 +9,7 @@
 	position: absolute;
 }
 
+html { scroll-behavior: smooth; }
 
 /* Header SVG */
 .header-svg {
@@ -87,6 +88,7 @@
 .navbar-pill {
 	text-align: right;
 	float: right;
+	padding-right: 1rem;
 }
 
 .nav-li {
@@ -355,16 +357,36 @@ footer {
 	background: #35BDB9;
 }
 
+/* Scroll Button */
+#scrollbtn {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #35BDB9;
+	color: white;
+	cursor: pointer;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+  }
+  
+  #scrollbtn:hover {
+	background-color: #444444;
+  }
 
 /* Mobile Navbar*/
 @media screen and (max-width: 764px) {
 	.navbar {
 		padding-bottom: 2rem;
 	}
-	.nav-item,
+	/* .nav-item,
 	.nav-item-selected {
 		font-size: 1rem;
-	}
+	} */
 	.tech-stack {
 		width: auto;
 	}

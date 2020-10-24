@@ -14,6 +14,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" , type="text/css" , href="styles/index.css" />
+    <script src="scripts/scrollbutton.js"></script>
     <script src="scripts/cardflip.js"></script>
     <script src="scripts/randomProject.js"></script>
     <script src='https://kit.fontawesome.com/7796f0cca1.js'></script>
@@ -26,10 +27,10 @@
                 <a class="name-logo" href="/">Dan</a>
                 <a class="name-logo2" href="/">Bullock</a>
             </div>
-            <!-- <ul class="navbar-pill">
-                <li class="nav-li"><a class="nav-item-selected" href="/">Projects</a></li>
-                <li class="nav-li"><a class="nav-item" href="about">About</a></li>
-            </ul> -->
+            <ul class="navbar-pill">
+                <li class="nav-li"><a class="nav-item-selected" href="#projects"><i class="fas fa-angle-down"></i></a></li>
+                <!-- <li class="nav-li"><a class="nav-item" href="about">About</a></li> -->
+            </ul>
         </div>
         <div class="social-media-pill">
             <a class="social-media-icon" href="https://www.linkedin.com/in/DanielBullockCS/" data-hint="LinkedIn" target="_blank">
@@ -54,6 +55,8 @@
 </header>
 
 <body>
+    <button onclick="topFunction()" id="scrollbtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
     <div class="page-body">
         <div class="tech-stack">
             <h2>About</h2>
@@ -78,7 +81,7 @@
             </p>
         </div>
 
-        <h1 class="page-title">Projects</h1>
+        <h1 class="page-title" id="projects">Projects</h1>
         <svg viewBox="0 0 1000 100" preserveAspectRatio="none" class="header-svg">
             <defs>
                 <linearGradient id="header-gradient" x2="0%" y2="100%">
