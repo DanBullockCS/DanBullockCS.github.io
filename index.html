@@ -87,16 +87,6 @@
     </div>
         <hr class="divider">
         <h1 class="page-title" id="projects">Projects</h1>
-        <!-- <svg viewBox="0 0 1000 100" preserveAspectRatio="none" class="header-svg">
-            <defs>
-                <linearGradient id="header-gradient" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#000000" />
-                    <stop offset="100%" stop-color="#333333" />
-                </linearGradient>
-            </defs>
-            <path class="header-path" fill="url(#header-gradient)"
-                d="M-4,-4 L1004,-4 L1004,90 L804,90 L604,90 L404,90 L204,90 L-4,90 L-4,90 L-4,-4 Z" />
-        </svg> -->
 
         <div class="projects">
             <div class="project-card" id="LiveProjectsCard">
@@ -123,6 +113,35 @@
                 </div>
             </div>
 
+            <div class="project-card" id="IneventorsCard">
+                <div class="project-card-front">
+                    <a href="https://www.ineventors.com/" alt="Ineventor link" target="_blank"><img class="project-logo" src="images/Ineventors_Logo.png" alt="Ineventors! Logo" /></a>
+                    <!-- <button class="flip-button" alt="flip the card over to see project video" onclick="flipCard('IneventorsCard)"> -->
+						<i class="fas fa-redo"></i>
+					</button>
+                    <ul class="project-tech">
+                        <li>HTML/CSS/JS</li>
+                        <li>PHP</li>
+                        <li>SASS</li>
+                    </ul>
+                    <p class="project-title">Ineventors</p>
+                    <p class="project-subtitle">
+                        Ineventors is a virtual event platform with interactive features that are optimized for connecting and engaging. Attendees can move between virtual rooms while making meaningful connections and enjoying the content you are presenting to them – just like an in-person event.
+                        I worked on a small team to help create this platform using various web technologies. Learn more about the site at
+                        <a href="https://www.ineventors.com/" alt="Ineventors link" target="_blank">https://www.ineventors.com/</a>.
+                    </p>
+                </div>
+
+                <div class="project-card-back">
+                    <button class="flip-button-back" alt="flip the card over to see project video" onclick="flipCardBack('KeepUpCard')">
+						<i class="fas fa-redo"></i>
+					</button>
+                    <div class="project-video">
+                        <video width="100%" src="images/webms/KeepUp.webm" alt="KeepUp! video" autoplay controls loop muted></video>
+                    </div>
+                </div>
+            </div>
+
             <div class="project-card" id="KeepUpCard">
                 <div class="project-card-front">
                     <a href="https://github.com/DanBullockCS/KeepUp" alt="KeepUp! link" target="_blank"><img class="project-logo" src="images/KeepUp!.png" alt="KeepUp! Logo" /></a>
@@ -136,9 +155,8 @@
                     </ul>
                     <p class="project-title">KeepUp!</p>
                     <p class="project-subtitle">
-                        KeepUp! is a simple Android game made in Unity. In it, you keep a paper ball up as long as you can by bouncing it up with an eraser. It was the first android game I made in Unity so it was a good learning experience leading to greater projects. The project
-                        is free and located
-                        <a href="https://github.com/DanBullockCS/KeepUp" alt="KeepUp! link" target="_blank">here</a>.
+                        KeepUp! is a simple Android game made in Unity. In it, you keep a paper ball up as long as you can by bouncing it up with an eraser. It was the first android game I made in Unity so it was a good learning experience leading to greater projects.
+                        Repo: <a href="https://github.com/DanBullockCS/KeepUp" alt="KeepUp! link" target="_blank">/DanBullockCS/KeepUp</a>.
                     </p>
                 </div>
 
@@ -167,8 +185,8 @@
                     <p class="project-title">ClassroomCompanion</p>
                     <p class="project-subtitle">
                         ClassroomCompanion is my undergraduate design thesis. It is a website built to assist teachers with various mundane teaching tasks. It is a node.js project using MongoDB for the backend. The website's design process gave me some time to hone my JavaScript
-                        skills especially. The project features an Attendance, Grade, and Performance Tracker for students; the code is posted
-                        <a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank">here</a>.
+                        skills especially. The project features an Attendance, Grade, and Performance Tracker for students. Repo:
+                        <a href="https://github.com/DanBullockCS/honoursthesis" alt="Thesis link" target="_blank">/DanBullockCS/honoursthesis</a>.
                     </p>
                 </div>
 
@@ -197,9 +215,9 @@
                     <p class="project-subtitle">
                         The League Kill Viewer is a D3 dashboard I made with <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a> and
                         <a href="https://github.com/DanooshanS" alt="Danooshan Sureshkumar Github" target="_blank">Danooshan Sureshkumar</a>. It takes League of Legends professional game data from 2015 to 2018 and displays it using various visualizations.
-                        This was done for the Information Visualization course at Ontario Tech. The project can be found
-                        <a href="https://github.com/DanBullockCS/LeagueKillViewer" alt="LeagueKillViewer link" target="_blank">here</a> and is live at to view on my website
-                        <a href="LeagueKillViewer" alt="LeagueKillViewer link" target="_blank">here</a>.
+                        This was done for the Information Visualization course at Ontario Tech. Repo:
+                        <a href="https://github.com/DanBullockCS/LeagueKillViewer" alt="LeagueKillViewer link" target="_blank">/DanBullockCS/LeagueKillViewer</a> |
+                        <a href="LeagueKillViewer" alt="LeagueKillViewer link" target="_blank">Live Version</a>.
                     </p>
                 </div>
 
@@ -227,7 +245,7 @@
                     <p class="project-title">Unity Projects: Gunman Gavin / Casinodano</p>
                     <p class="project-subtitle">
                         A couple Unity games that I have finished during my interactive media class are posted at this repository
-                        <a href="https://github.com/DanBullockCS/unityprojects" alt="UnityProjects link" target="_blank">here</a>. The first one is 2D shooter called <i>Gunman Gavin</i>, it resembles old MegaMan games, but in a western theme. The other
+                        <a href="https://github.com/DanBullockCS/unityprojects" alt="UnityProjects link" target="_blank">/DanBullockCS/UnityProjects/</a>. The first one is 2D shooter called <i>Gunman Gavin</i>, it resembles old MegaMan games, but in a western theme. The other
                         project is <i>Casinodano</i>, which is a 3D game that brings a casino experience to life. It was my first 3D Unity game and I enjoy the atmosphere I created.
                     </p>
                 </div>
@@ -259,8 +277,8 @@
                         NoteTakR is an android application built with the help of <a href="https://github.com/Mushfequr-Rahman" alt="Mohammad Mushfequr Rahman Github" target="_blank">Mohammad Mushfequr Rahman</a>,
                         <a href="https://github.com/zbonal" alt="Leonard Zbona Github" target="_blank">Leonard
 							Zbona</a>, and
-                        <a href="https://github.com/NanDitto" alt="Nandor Gallo Github" target="_blank">Nandor Gallo</a> using the Google Flutter SDK. NoteTakR is note taking app specifically geared towards students. The project's code is posted
-                        <a href="https://github.com/DanBullockCS/CSCI4100U-Project" alt="NoteTakR link" target="_blank">here</a>.
+                        <a href="https://github.com/NanDitto" alt="Nandor Gallo Github" target="_blank">Nandor Gallo</a> using the Google Flutter SDK. NoteTakR is note taking app specifically geared towards students.
+                        Repo: <a href="https://github.com/DanBullockCS/CSCI4100U-Project" alt="NoteTakR link" target="_blank">/DanBullockCS/CSCI4100U-Project</a>.
                     </p>
                 </div>
 
@@ -288,8 +306,8 @@
                     <p class="project-title">Computer Graphics Project - Soccer Toybox</p>
                     <p class="project-subtitle">
                         Soccer Toybox is an OpenGL program created with <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin Desousa</a> for our computer graphics class. This project includes some basic OpenGL code that
-                        will do simple lighting of the scene, texturing objs, making/texturing a "skybox", and moving a soccer ball around with translations/rotations. You can find the project's code
-                        <a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link" target="_blank">here</a>.
+                        will do simple lighting of the scene, texturing objs, making/texturing a "skybox", and moving a soccer ball around with translations/rotations. Repo:
+                        <a href="https://github.com/DanBullockCS/CSCI3090U-Project" alt="Soccer Toybox link" target="_blank">/DanBullockCS/CSCI3090U-Project</a>.
                     </p>
                 </div>
 
@@ -321,8 +339,8 @@
 							Pilkey</a>,
                         <a href="https://github.com/desousak" alt="Kevin Desousa Github" target="_blank">Kevin
 							Desousa</a>, and <a href="https://github.com/zbonal" alt="Leonard Zbona Github" target="_blank">Leonard
-							Zbona</a>. The project's code can be found
-                        <a href="https://github.com/DanBullockCS/YT-Companion" alt="YT-Companion link" target="_blank">here</a>.
+							Zbona</a>. Repo:
+                        <a href="https://github.com/DanBullockCS/YT-Companion" alt="YT-Companion link" target="_blank">/DanBullockCS/YT-Companion</a>.
                     </p>
                 </div>
 
@@ -338,6 +356,16 @@
         </div>
     </div>
 
+    <hr class="divider">
+    <h1 class="page-title" id="projects">Extra Content</h1>
+
+    <div class="projects extra-content">
+        <!-- Twitter Embed -->
+        <div class="project-card" id="twitter-feed">
+            <h2>Twitter Feed</h2>
+            <a class="twitter-timeline" data-width="auto" data-height="500" data-theme="dark" href="https://twitter.com/DanBullockCS?ref_src=twsrc%5Etfw">@DanBullockCS Tweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
 </body>
 
 <footer>

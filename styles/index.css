@@ -11,17 +11,6 @@
 
 html { scroll-behavior: smooth; }
 
-/* Header SVG */
-/* .header-svg {
-	width: 100%;
-	height: 100px;
-}
-
-.header-path {
-	stroke: white;
-	stroke-width: 4;
-} */
-
 .divider {
 	border-top: 5px white solid;
 }
@@ -235,6 +224,16 @@ a:hover {
 	display: none;
 }
 
+/* Extra Content */
+.extra-content {
+	display: grid;
+	grid-template-columns: auto !important;
+	grid-template-rows: auto;
+}
+#twitter-feed {
+	text-align: center;
+	justify-self: center;
+}
 
 /* Live Projects Logo SVG */
 .logo-svg {
