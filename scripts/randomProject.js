@@ -15,5 +15,11 @@ function showRandomProject() {
         case 3:
             Link.href = "LeagueKillViewer";
             break;
+        case 4:
+            Link.href = "PlatformerTechDemo";
+            break;
+        case 5:
+            Link.href = "PaintSplatterTechDemo";
+            break;
     }
 }
