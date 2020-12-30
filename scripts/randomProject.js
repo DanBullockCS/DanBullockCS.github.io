@@ -1,8 +1,9 @@
 // Select a random live project when you click the live project SVG
 function showRandomProject() {
     let Link = document.getElementById("svg-link");
+    let numProjects = 6;
     
-    switch (Math.floor(Math.random() * 4)) {
+    switch (Math.floor(Math.random() * numProjects)) {
         case 0:
             Link.href = "WhatColorIsThat";
             break;
