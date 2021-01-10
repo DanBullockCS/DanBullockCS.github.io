@@ -241,6 +241,11 @@ a:hover {
 	text-align: center;
 	justify-self: center;
 }
+#twitter-widget-0 {
+	padding: 3px!important;
+    border: 1px solid #35BDB9!important;
+    border-radius: 16px!important;
+}
 
 /* Live Projects Logo SVG */
 .logo-svg {
