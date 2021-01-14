@@ -140,7 +140,7 @@ img {
 	width: 150px;
 	border-radius: 50%;
 	transition: all .1s;
-	border: #35BDB9 solid 1px;
+	border: #35BDB9 solid 3px;
 }
 
 a {
@@ -162,7 +162,7 @@ a:hover {
 	width: 250px;
 	border-radius: 50%;
 	transition: all .1s;
-	border: #35BDB9 solid 1px;
+	border: #35BDB9 solid 3px;
 }
 
 .project-logo:hover {
@@ -243,7 +243,7 @@ a:hover {
 }
 #twitter-widget-0 {
 	padding: 3px!important;
-    border: 1px solid #35BDB9!important;
+    border: 3px solid #35BDB9!important;
     border-radius: 16px!important;
 }
 
