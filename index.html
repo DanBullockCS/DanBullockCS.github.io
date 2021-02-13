@@ -17,6 +17,7 @@
     <link rel="stylesheet" , type="text/css" , href="styles/noise.css" />
     <script defer src="scripts/scrollbutton.js"></script>
     <script defer src="scripts/cardflip.js"></script>
+    <script defer src="scripts/sorting.js"></script>
     <script defer src="scripts/randomProject.js"></script>
     <script async src='https://kit.fontawesome.com/7796f0cca1.js'></script>
 </head>
@@ -87,6 +88,13 @@
     </div>
         <hr class="divider">
         <h1 class="page-title" id="projects">Projects</h1>
+
+        <div class="sorting-card">
+            <button class="btn" onclick="sortByAll()">Show All</button>
+            <button class="btn" onclick="sortByWeb()">Web Apps</button>
+            <button class="btn" onclick="sortByGames()">Games</button>
+            <button class="btn" onclick="sortByMisc()">Misc</button>
+        </div>
 
         <div class="projects">
             <div class="project-card" id="LiveProjectsCard">

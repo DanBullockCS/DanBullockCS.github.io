@@ -77,6 +77,10 @@ html { scroll-behavior: smooth; }
 	transform: scale(1.2);
 }
 
+.social-media-icon>i:active {
+	transform: scale(1);
+}
+
 .navbar-pill {
 	text-align: right;
 	float: right;
@@ -350,6 +354,43 @@ footer {
 	/* border-radius: 1rem; */
 }
 
+/* Buttons */
+.btn {
+	border: none;
+	background-color: #35BDB9;
+	color: white;
+	cursor: pointer;
+	padding: 5px 15px 5px 15px;
+	border-radius: 16px;
+	transition: 0.2s linear;
+}
+.btn:hover {
+	transform: scale(1.1);
+	color: black;
+	background-color: #FFDB58; 
+	transition: 0.2s linear;
+}
+.btn:active {
+	transform: scale(1);
+	color: white;
+	background-color: #35BDB9; 
+	transition: 0.2s linear;
+}
+.btn:focus {
+	outline: none;
+}
+
+/* Sorting card */
+.sorting-card {
+	width: 20rem;
+	text-align: center;
+	display: block;
+	background-color: #000000;
+	padding: 2rem;
+	margin: auto;
+	border: 1px solid #35BDB9;
+}
+	
 
 /* Scroll bar */
 ::-webkit-scrollbar {
@@ -404,6 +445,9 @@ footer {
 	.tech-stack {
 		width: auto;
 	}
+	.sorting-card {
+		width: auto;
+	}
 }
 
 @media screen and (max-width: 613px) {
@@ -441,5 +485,18 @@ footer {
 @media screen and (max-width: 516px) {
 	.social-media-icon {
 		padding-right: 0rem;
+	}
+}
+
+@media screen and (max-width: 613px) {
+	.nav-li {
+		display: block;
+		padding-bottom: 0.25rem;
+	}
+}
+
+@media screen and (max-width: 387px) {
+	.btn {
+		margin-bottom: 0.5rem;
 	}
 }
