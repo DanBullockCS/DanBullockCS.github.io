@@ -21,6 +21,10 @@ html { scroll-behavior: smooth; }
 	border-bottom: white 5px solid;
 }
 
+.full-name-logo {
+	user-select: none;
+}
+
 .full-name-logo::before {
 	padding-left: 3rem;
 	content: "{";
@@ -60,6 +64,7 @@ html { scroll-behavior: smooth; }
 .social-media-pill {
 	font-size: 3rem;
 	padding-left: 2.25rem;
+	user-select: none;
 }
 
 .social-media-icon {
