@@ -155,10 +155,24 @@ img {
 a {
 	color: #FFDB58;
 	text-decoration: none;
+	position: relative;
+    overflow: hidden;
 }
-
 a:hover {
 	color: #35BDB9;
+}
+a::before {
+	position: absolute;
+	content: attr(data-content);
+	width: 0;
+	color: #35BDB9;
+	text-decoration: underline;
+	white-space: nowrap;
+	overflow: hidden;
+	transition: width 300ms ease;
+}
+a:hover::before {
+	width: 100%;
 }
 
 .projects {
@@ -325,6 +339,9 @@ a:hover {
 	}
 }
 
+.about-me {
+	padding: 2px;
+}
 /* Mobile About Me */
 @media screen and (max-width: 730px) {
 	.about-me {
@@ -399,8 +416,8 @@ footer {
 
 /* Scroll bar */
 ::-webkit-scrollbar {
-	width: 7px;
-	height: 7px;
+	width: 8px;
+	height: 8px;
 }
 
 ::-webkit-scrollbar-track {
