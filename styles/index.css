@@ -187,6 +187,13 @@ a:hover::before {
 	transition: all .1s;
 	border: #35BDB9 solid 3px;
 }
+#badlion-logo {
+	height: 250px;
+	transition: all .1s;
+}
+#badlion-logo:hover {
+	transform: scale(1.1);
+}
 
 .project-logo:hover {
 	transform: scale(1.1);
