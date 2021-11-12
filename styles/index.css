@@ -344,6 +344,12 @@ a:hover::before {
 	.header-svg {
 		height: 50px;
 	}
+	.project-logo {
+		width: 150px;
+	}
+	#badlion-logo {
+		height: 150px;
+	}
 }
 
 .about-me {
