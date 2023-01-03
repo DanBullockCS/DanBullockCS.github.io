@@ -9,6 +9,10 @@
 	/* position: absolute; */
 }
 
+.topbar {
+	margin-top: 1rem;
+}
+
 html { scroll-behavior: smooth; }
 
 .divider {
@@ -75,7 +79,7 @@ html { scroll-behavior: smooth; }
 .social-media-icon>i {
 	color: white;
 	font-size: 2.5rem;
-	transition: all .1s;
+	transition: transform .1s ease;
 }
 
 .social-media-icon>i:hover {
@@ -204,7 +208,7 @@ a:hover::before {
 	padding: 2rem;
 	margin: 1rem;
 	width: 35rem;
-	border: 1px solid #35BDB9;
+	border: 2px solid #35BDB9;
 	border-radius: 5px;
 }
 
@@ -268,13 +272,19 @@ a:hover::before {
 	grid-template-rows: auto;
 }
 #twitter-feed {
-	text-align: center;
-	justify-self: center;
+	max-width: 45rem;
+	margin: 20px auto;
 }
 #twitter-widget-0 {
 	padding: 3px!important;
-    border: 3px solid #35BDB9!important;
-    border-radius: 16px!important;
+  border: 2px solid #35BDB9!important;
+  border-radius: 16px!important;
+}
+@media screen and (max-width: 750) {
+	#twitter-feed {
+		max-width: 100%;
+		margin: 20px auto;
+	}
 }
 
 /* Live Projects Logo SVG */
@@ -370,9 +380,9 @@ a:hover::before {
 	grid-template-rows: auto;
 	justify-items: center;
 	padding: 2rem;
-	margin: auto;
+	margin: 2rem;
 	background-color: #000000;
-	border: #35BDB9 solid 1px;
+	border: #35BDB9 solid 2px;
 	width: 45rem;
 	border-radius: 5px;
 	/* margin-bottom: 1rem; */
@@ -418,14 +428,16 @@ footer {
 
 /* Sorting card */
 .sorting-card {
-	width: 20rem;
+	max-width: 20rem;
+	width: auto;
 	text-align: center;
 	display: block;
 	background-color: #000000;
 	padding: 2rem;
-	margin: auto;
-	border: 1px solid #35BDB9;
+	margin: 1rem auto;
+	border: 2px solid #35BDB9;
 	border-radius: 5px;
+	line-height: 30px;
 }
 	
 
@@ -482,9 +494,6 @@ footer {
 	.tech-stack {
 		width: auto;
 	}
-	.sorting-card {
-		width: auto;
-	}
 }
 
 @media screen and (max-width: 613px) {
@@ -531,6 +540,13 @@ footer {
 		padding-bottom: 0.25rem;
 	}
 }
+
+@media screen and (max-width: 430px) {
+	.sorting-card {
+		margin: 1rem;
+	}
+}
+
 
 @media screen and (max-width: 387px) {
 	.btn {
