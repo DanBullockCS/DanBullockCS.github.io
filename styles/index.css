@@ -190,6 +190,7 @@ a:hover::before {
 	border-radius: 50%;
 	transition: all .1s;
 	border: #35BDB9 solid 3px;
+	object-fit: contain;
 }
 #badlion-logo {
 	height: 250px;
@@ -343,22 +344,37 @@ a:hover::before {
 	}
 }
 
-@media screen and (max-width: 524px) {
-	.project-logo {
-		width: 200px;
+@media screen and (max-width: 768px) {
+	.header-svg {
+		width: 100px;
+		height: 100px;
 	}
+	.project-logo {
+		width: 100px;
+		height: 100px;
+	}
+	#badlion-logo {
+		width: 100px;
+		height: 110px;
+	}
+}
+
+@media screen and (max-width: 524px) {
 	.page-title {
 		font-size: 2rem;
 		padding: 0;
 	}
 	.header-svg {
 		height: 50px;
+		width: 75px;
 	}
 	.project-logo {
-		width: 150px;
+		width: 75px;
+		height: 75px;
 	}
 	#badlion-logo {
-		height: 150px;
+		height: 80px;
+		width: 75px;
 	}
 }
 
