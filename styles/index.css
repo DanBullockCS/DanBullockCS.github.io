@@ -109,18 +109,16 @@ html { scroll-behavior: smooth; }
 }
 
 .nav-item-selected {
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: 5px 10px 5px 10px;
 	font-size: 2rem;
-	background-color: #000000;
-	border-radius: 16px;
+	background-color: #111;
+	border-radius: 50%;
 	color: #FFDB58;
 }
 
 .nav-item:hover,
 .nav-item-selected:hover {
-	background-color: #000000;
-	border-radius: 16px;
+	background-color: #111;
 	color: #FFDB58;
 }
 
@@ -142,7 +140,7 @@ p {
 }
 
 body {
-	background-color: #121212;
+	background-color: #111;
 }
 
 img {
@@ -186,18 +184,15 @@ a:hover::before {
 }
 
 .project-logo {
-	width: 250px;
+	width: 150px;
 	border-radius: 50%;
 	transition: all .1s;
 	border: #35BDB9 solid 3px;
 	object-fit: contain;
 }
 #badlion-logo {
-	height: 250px;
-	transition: all .1s;
-}
-#badlion-logo:hover {
-	transform: scale(1.1);
+	border: none;
+	border-radius: 0;
 }
 
 .project-logo:hover {
@@ -205,12 +200,14 @@ a:hover::before {
 }
 
 .project-card {
-	background-color: #000000;
+	background-color: #1f1f1f;
 	padding: 2rem;
 	margin: 1rem;
 	width: 35rem;
 	border: 2px solid #35BDB9;
 	border-radius: 5px;
+	object-fit: contain;
+	box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
 }
 
 
@@ -250,10 +247,18 @@ a:hover::before {
 .flip-button-back {
 	float: right;
 	font-size: 2rem;
+	border-radius: 50%;
+	height: 44px;
+	border: none;
+    padding-top: 6.5px;
 }
 
 .flip-button {
 	margin-left: 1rem;
+}
+
+.flip-button:hover, .flip-button-back:hover {
+	cursor: pointer;
 }
 
 .flip-button-back {
@@ -397,11 +402,11 @@ a:hover::before {
 	justify-items: center;
 	padding: 2rem;
 	margin: 2rem;
-	background-color: #000000;
+	background-color: rgba(0,0,0,0.75);
 	border: #35BDB9 solid 2px;
 	width: 45rem;
 	border-radius: 5px;
-	/* margin-bottom: 1rem; */
+	box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
 }
 
 h2 {
@@ -448,12 +453,13 @@ footer {
 	width: auto;
 	text-align: center;
 	display: block;
-	background-color: #000000;
+	background-color: #1f1f1f;
 	padding: 2rem;
 	margin: 1rem auto;
 	border: 2px solid #35BDB9;
 	border-radius: 5px;
 	line-height: 30px;
+	box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
 }
 	
 
@@ -487,15 +493,11 @@ footer {
 	font-size: 2rem;
 	border: none;
 	outline: none;
-	background-color: #35BDB9;
-	color: white;
+	color: #FFDB58;
 	cursor: pointer;
 	padding: 5px 15px 5px 15px;
 	border-radius: 16px;
-  }
-  
-  #scrollbtn:hover {
-	background-color: #444444;
+	background: none;
   }
 
 /* Mobile Navbar*/
@@ -503,10 +505,6 @@ footer {
 	.navbar {
 		padding-bottom: 2rem;
 	}
-	/* .nav-item,
-	.nav-item-selected {
-		font-size: 1rem;
-	} */
 	.tech-stack {
 		width: auto;
 	}
