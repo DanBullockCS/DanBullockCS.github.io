@@ -338,6 +338,7 @@ a:hover::before {
 	}
 	.project-card {
 		width: auto;
+		padding: 1rem;
 	}
 }
 
@@ -456,7 +457,7 @@ footer {
 	text-align: center;
 	display: block;
 	background-color: #1f1f1f;
-	padding: 2rem;
+	padding: 1rem;
 	margin: 1rem auto;
 	border: 2px solid #35BDB9;
 	border-radius: 25px;
@@ -505,10 +506,11 @@ footer {
 /* Mobile Navbar*/
 @media screen and (max-width: 764px) {
 	.navbar {
-		padding-bottom: 2rem;
+		padding: 0.5rem;
 	}
 	.tech-stack {
 		width: auto;
+		padding: 1rem;
 	}
 }
 
@@ -559,7 +561,7 @@ footer {
 
 @media screen and (max-width: 430px) {
 	.sorting-card {
-		margin: 1rem;
+		margin:  1rem
 	}
 }
 
