@@ -148,7 +148,7 @@ img {
 }
 
 .DB-Logo {
-	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	transition: all .1s;
 	border: #35BDB9 solid 3px;
@@ -184,7 +184,7 @@ a:hover::before {
 }
 
 .project-logo {
-	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	transition: all .1s;
 	border: #35BDB9 solid 3px;
