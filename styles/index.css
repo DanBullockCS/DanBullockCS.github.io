@@ -239,6 +239,12 @@ a:hover::before {
 	color: #F4F6E9;
 }
 
+.project-video {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .project-video>img {
 	width: 100%;
 }
@@ -262,9 +268,9 @@ a:hover::before {
 }
 
 .flip-button-back {
-	/* transform: rotateY(180deg); */
 	opacity: 1;
 	margin-bottom: 1rem;
+	margin-left: 8px;
 }
 
 .project-card-back {
@@ -339,6 +345,7 @@ a:hover::before {
 	.project-card {
 		width: auto;
 		padding: 1rem;
+		justify-self: center!important;
 	}
 }
 
@@ -364,6 +371,9 @@ a:hover::before {
 	#badlion-logo {
 		width: 100px;
 		height: 110px;
+	}
+	.project-tech {
+		font-size: 0.75rem;
 	}
 }
 
