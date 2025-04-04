@@ -268,7 +268,7 @@ a:hover::before {
 }
 
 .project-card-back {
-	/* transform: rotateY(180deg); */
+	transform: rotateY(180deg);
 	opacity: 1;
 	display: none;
 }
