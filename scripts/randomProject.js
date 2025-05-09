@@ -1,6 +1,6 @@
 // Select a random live project when you click the live project SVG
 
-const NUM_PROJECTS = 5;
+const NUM_PROJECTS = 6;
 
 function showRandomProject() {
     let Link = document.getElementById("svg-link");
@@ -21,5 +21,8 @@ function showRandomProject() {
         case 4:
             Link.href = "PaintSplatterTechDemo";
             break;
-    }
+        case 5:
+            Link.href = "wordle-clone";
+            break;
+}
 }
